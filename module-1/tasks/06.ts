@@ -1,4 +1,11 @@
 // Создать строковые переменные a и b. Присвоить им "4" и "2". Вывести их сумму
-let a : string = 4
-let b : string = 2
-console.log (a + b)
+export {}
+
+let a,b : string
+a = "4"
+b = "2"
+
+let d = Number(a)
+let c = Number(b)
+//преобразовать строку в число и вывести сумму
+console.log (d + c)

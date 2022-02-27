@@ -1,6 +1,9 @@
-// Создать строку js со значением "JavaScript", сохранить в переменную значение равенства 10 и длинны сроки
+// Создать строку js со значением "JavaScript", 
+//сохранить в переменную значение равенства 10 и длинны сроки
 // Вывести полученный результат. Загуглить как найти длину строки самостоятельно
-
+export {}
 const js : string = "JavaScript"
-js === 10
-console.log(js.length)
+
+const n: number = 10
+const isEqualTen = js.length === n
+console.log(isEqualTen)
