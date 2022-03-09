@@ -7,7 +7,7 @@
 
 export{}
 
-let temp = 18
+let temp = 25
 //let temp: Number = prompt('Какая сейчас погода', '')
 
 if (temp <= -10) {
@@ -18,7 +18,7 @@ if (temp <= -10) {
     console.log('Прохладно')
 } else if (temp <= 25) {
     console.log('Тепло')
-} else if (temp >= 25) {
+} else {
     console.log('Жарко')
 }
 

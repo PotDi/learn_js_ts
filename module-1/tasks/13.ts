@@ -1,10 +1,9 @@
 // Доработать таблицы истинности. Сделать вывод через for. Не использовать массивы!!!
 export{}
 
-let a, b
-a = true
-b = false
 console.log(`a\tb\ta&&b\ta||b\t!a\t!b`)
-for (; a && b; a || b; !a; !b; i++) {
-    console.log(a)
+for(let i = 0; i < 4; i++) {
+    const a = i === 2 || i ===3
+    const b = i === 1 || i === 3
+    console.log(`${a}\t${b}\t${a && b}`)
 }
