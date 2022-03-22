@@ -1,7 +1,7 @@
 // Создать функцию sum для сложения двух чисел
 
 export{}
-const sum = function (a: number, b: number) { //без присвоение типов программа не работает
+const sum = function (a: number, b: number) {
     return a + b
 }
 

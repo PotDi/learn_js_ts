@@ -3,5 +3,6 @@
 // Прочитать что такое селектор
 
 function select(id: string) {
+    
     console.log(select)
 }
