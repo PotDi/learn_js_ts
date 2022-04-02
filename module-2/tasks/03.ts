@@ -1,6 +1,13 @@
 // Дописать функцию для подсчета суммы нечетных чисел в массиве
 function sumOdd(arr: number[]): number {
-    return 0
+    let sum = 0
+    for(let value of arr){ //непонятно как работает
+        if (value % 2 === 1) {
+            sum += value
+
+        }
+    }
+    return sum
 }
 
 const nums = [1, 2, 3]

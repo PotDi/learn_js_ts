@@ -2,7 +2,9 @@
 // Пример foo('header') вернет [data-at*="id=header"]
 // Прочитать что такое селектор
 
-function select(id: string) {
-    
-    console.log(select)
+
+function foo(id: string) {
+    return `[data-at*="id=${id}"]` //область видимости функции
 }
+let str = 'header'
+console.log(foo(str))
