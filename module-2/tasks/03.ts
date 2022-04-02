@@ -1,10 +1,9 @@
 // Дописать функцию для подсчета суммы нечетных чисел в массиве
 function sumOdd(arr: number[]): number {
     let sum = 0
-    for(let value of arr){ //непонятно как работает
-        if (value % 2 === 1) {
-            sum += value
-
+    for (let array of arr ) {
+        if (array % 2 === 1) { //насколько я правильно понял??
+            sum += array
         }
     }
     return sum
