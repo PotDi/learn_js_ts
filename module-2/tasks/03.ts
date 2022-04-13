@@ -2,7 +2,7 @@
 function sumOdd(arr: number[]): number {
     let sum = 0
     for (let array of arr ) {
-        if (array % 2 === 1) { //насколько я правильно понял??
+        if (array % 2 === 1) {
             sum += array
         }
     }
