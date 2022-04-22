@@ -2,7 +2,12 @@
 export{}
 
 function objectReverse(obj: Record<string, string>):Record<string, string> {
+    Object.keys(objectReverse).forEach(value) {
+        var key = objectReverse[value];
+        obj[key] = value;
     return obj
+}
+
 }
 
 const group = {

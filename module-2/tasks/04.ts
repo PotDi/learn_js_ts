@@ -1,8 +1,12 @@
 // вывести матрицу
+export{}
+
+var a: any
 const matrix = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9],
 ]
-//взять второй массив и в нем взять элемент массива
-console.log(matrix[1][1]) 
+for (a in matrix) {
+    console.log(matrix[a]) 
+}
