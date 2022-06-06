@@ -3,3 +3,19 @@
 
 //const page = new Page("Yandex", 'https://yandex.ru')
 //page.open()
+
+class Page {
+    open() {
+        throw new Error("Переход на страницу <Название> : <url>.")
+    }
+    url: string
+    name: string
+    constructor(url: string, name: string) {
+        this.url = url
+        this.name = name
+    }
+}
+const page = new Page("Yandex", 'https://yandex.ru')
+console.log(page)
+page.open()
+
